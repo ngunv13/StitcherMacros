@@ -23,7 +23,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-syntax.git", from: "509.0.0"),
-        .package(url: "https://github.com/athankefalas/Stitcher.git", exact: "1.1.0")
+        .package(url: "https://github.com/ngunv13/Stitcher.git", branch: "main")
     ],
     targets: [
         
